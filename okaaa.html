@@ -1,0 +1,3280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Join Mia Ottosson's 2025 Progressive Mediumship Course - An 8+ month journey to develop your unique medium abilities with personalized mentoring from a professional medium with 30+ years experience.">
+    <meta name="theme-color" content="#6C2996">
+    <title>2025 Progressive Mediumship Course with Mia Ottosson</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --primary: #6C2996;
+            --primary-light: #9742C8;
+            --primary-dark: #4A1C66;
+            --secondary: #F0E5F5;
+            --accent: #FF6B6B;
+            --accent-secondary: #FFB649;
+            --dark: #222222;
+            --light: #FFFFFF;
+            --gray: #F5F5F5;
+            --text: #333333;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'DM Sans', sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background-color: var(--light);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1.1;
+        }
+        
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            letter-spacing: -0.5px;
+            line-height: 1.2;
+        }
+        
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            margin-bottom: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        
+        .section {
+            padding: 100px 0;
+            position: relative;
+        }
+        
+        .section-border {
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        /* Header */
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--light);
+            text-decoration: none;
+        }
+        
+        /* Hero Section with Flex Layout */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--light);
+            padding: 200px 0 120px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            background-image: url('https://via.placeholder.com/1000x1000');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            z-index: 1;
+        }
+        
+        .hero-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-content {
+            flex: 1;
+            max-width: 600px;
+        }
+        
+        .hero h1 {
+            color: var(--light);
+            margin-bottom: 30px;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .eyebrow {
+            display: inline-block;
+            background-color: rgba(255,255,255,0.1);
+            color: var(--light);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Elegant profile design */
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .profile-image-wrapper {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 25%;
+            border: 4px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-glow {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+            z-index: -1;
+            animation: pulse 3s infinite ease-in-out;
+        }
+        
+        .profile-name {
+            color: var(--light);
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .profile-title {
+            color: var(--light);
+            opacity: 0.9;
+            text-align: center;
+            font-size: 1rem;
+            max-width: 300px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .profile-spots {
+            display: inline-block;
+            background-color: rgba(255,255,255,0.15);
+            color: var(--light);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .profile-cta {
+            background-color: var(--light);
+            color: var(--primary);
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+        }
+        
+        .profile-cta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--light);
+            margin: 0 auto 20px;
+            display: block;
+        }
+        
+        .hero-image-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        /* Improved hero image */
+        .hero-right-image {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 25%; /* Position more toward top of face */
+            margin-bottom: 20px;
+            border: 4px solid var(--light);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--light);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary);
+            color: var(--light);
+        }
+        
+        .btn-light {
+            background-color: var(--light);
+            color: var(--primary);
+        }
+        
+        .btn-large {
+            padding: 18px 36px;
+            font-size: 1.1rem;
+        }
+        
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+        
+        /* Features */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .feature-card {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .feature-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
+            z-index: -1;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+        
+        .feature-title {
+            font-size: 1.3rem;
+            margin-bottom: 16px;
+        }
+        
+        /* Content Blocks */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Force equal columns */
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .content-left {
+            width: 100%;
+        }
+        
+        .content-image {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .content-image img {
+            width: 80%; /* Smaller images */
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .content-image img:hover {
+            transform: translateY(-10px);
+        }
+        
+        /* Enhanced Spiritual Illustrations Styling */
+        .spiritual-image-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            width: 80%; /* Smaller container */
+        }
+        
+        .spiritual-image-container:hover {
+            transform: translateY(-10px);
+        }
+        
+        .spiritual-image {
+            width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: 0 15px 35px rgba(108, 41, 150, 0.25);
+            transition: transform 0.3s ease;
+            object-fit: cover;
+        }
+        
+        .spiritual-image-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: var(--light);
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 10px;
+            background: rgba(108, 41, 150, 0.7);
+            border-radius: 0 0 var(--border-radius) var(--border-radius);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
+        }
+        
+        .spiritual-image-container:hover .spiritual-image-caption {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .spirit-connection-image {
+            position: relative;
+        }
+        
+        .spirit-connection-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: var(--border-radius);
+            background: radial-gradient(circle, rgba(151, 66, 200, 0.2) 0%, rgba(151, 66, 200, 0) 70%);
+            z-index: -1;
+            animation: pulse 3s infinite ease-in-out;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.4;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+        }
+        
+        .content-block {
+            margin-bottom: 40px;
+        }
+        
+        .content-block:last-child {
+            margin-bottom: 0;
+        }
+        
+        .check-list {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        
+        .check-list li {
+            position: relative;
+            padding-left: 36px;
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+        
+        .check-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 26px;
+            height: 26px;
+            background-color: var(--secondary);
+            color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        
+        /* Why Different Section - Single Column Layout */
+        .why-different-section {
+            margin-top: 60px;
+        }
+        
+        .why-different-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Enhanced Testimonials Section */
+        .testimonial-slider-container {
+            position: relative;
+            margin-top: 60px;
+            padding: 20px 0;
+        }
+        
+        .testimonial-slider {
+            display: flex;
+            overflow-x: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            margin: 0 -20px;
+        }
+        
+        .testimonial-card {
+            flex: 0 0 90%;
+            max-width: 90%;
+            margin: 0 auto;
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            position: relative;
+            transition: var(--transition);
+            scroll-snap-align: center;
+            display: none;
+            border: 1px solid rgba(108, 41, 150, 0.1);
+            border-left: 5px solid var(--primary);
+            box-shadow: 0 15px 30px rgba(108, 41, 150, 0.08);
+        }
+        
+        .testimonial-card.active {
+            display: block;
+            animation: testimonialFadeIn 0.5s ease-in-out;
+        }
+        
+        @keyframes testimonialFadeIn {
+            from {
+                opacity: 0.7;
+                transform: translateX(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(108, 41, 150, 0.12);
+        }
+        
+        .testimonial-content {
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-bottom: 30px;
+            position: relative;
+            text-align: center;
+        }
+        
+        .testimonial-content::before {
+            content: '\201C';
+            font-size: 5rem;
+            font-family: 'Georgia', serif;
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(108, 41, 150, 0.1);
+            line-height: 1;
+        }
+        
+        .testimonial-highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            color: var(--light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        
+        .author-info h4 {
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+        }
+        
+        .author-info p {
+            margin-bottom: 0;
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        .testimonial-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 10px;
+        }
+        
+        .testimonial-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .testimonial-dot.active {
+            background-color: var(--primary);
+            transform: scale(1.2);
+        }
+        
+        .testimonial-arrows {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            z-index: 10;
+            pointer-events: none;
+        }
+        
+        .testimonial-arrow {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            box-shadow: var(--box-shadow);
+            cursor: pointer;
+            pointer-events: auto;
+            transition: var(--transition);
+        }
+        
+        .testimonial-arrow:hover {
+            background-color: var(--primary);
+            color: var(--light);
+        }
+        
+        .testimonial-arrow.prev {
+            left: 20px;
+        }
+        
+        .testimonial-arrow.next {
+            right: 20px;
+        }
+        
+        /* Journey Cards */
+        .journey-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 40px;
+            margin: 60px 0;
+        }
+        
+        .journey-card {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .journey-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .journey-header {
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 20px 30px 20px 70px; /* Added left padding to make room for the number */
+            position: relative;
+        }
+        
+        .journey-step {
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .journey-title {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            color: var(--light); /* Explicitly making the titles white */
+        }
+        
+        .journey-body {
+            padding: 30px;
+        }
+        
+        .journey-quote {
+            font-style: italic;
+            background-color: var(--secondary);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .journey-quote::before {
+            content: '\201C';
+            font-size: 3rem;
+            font-family: 'Georgia', serif;
+            position: absolute;
+            top: -10px;
+            left: 5px;
+            color: rgba(108, 41, 150, 0.2);
+            line-height: 1;
+        }
+        
+        /* Pricing */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .pricing-card {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .pricing-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--light);
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .pricing-title {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+        
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        .pricing-period {
+            opacity: 0.8;
+            font-size: 1rem;
+        }
+        
+        .pricing-body {
+            padding: 40px;
+        }
+        
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        
+        .pricing-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .pricing-features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        .pricing-features li:last-child {
+            border-bottom: none;
+        }
+        
+        /* Exclusive feature highlight */
+        .exclusive-feature {
+            background-color: rgba(255, 182, 73, 0.1);
+            border-left: 3px solid var(--accent-secondary);
+            padding: 12px 15px 12px 30px;
+            margin: -12px 0;
+            position: relative;
+        }
+        
+        /* Enhanced exclusive feature with subtle highlight */
+        .premium-feature {
+            background-color: rgba(255, 182, 73, 0.08);
+            border-left: 3px solid var(--accent-secondary);
+            padding: 12px 15px 12px 30px;
+            margin: -12px 0;
+            position: relative;
+            transition: background-color 0.3s ease;
+        }
+        
+        .premium-feature:hover {
+            background-color: rgba(255, 182, 73, 0.15);
+        }
+
+        /* Negative feature styling */
+        .negative-feature {
+            background-color: rgba(255, 107, 107, 0.08);
+            border-left: 3px solid var(--accent);
+            padding: 12px 15px 12px 30px;
+            margin: -12px 0;
+            position: relative;
+            transition: background-color 0.3s ease;
+            text-decoration: line-through;
+            color: #888;
+        }
+        
+        .negative-feature::before {
+            content: "✕" !important;
+            color: var(--accent) !important;
+        }
+        
+        /* FAQ */
+        .faq-container {
+            margin-top: 60px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            background-color: var(--light);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .faq-question {
+            padding: 24px 30px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+        
+        .faq-question:hover {
+            background-color: var(--secondary);
+        }
+        
+        .faq-toggle {
+            width: 24px;
+            height: 24px;
+            position: relative;
+        }
+        
+        .faq-toggle::before,
+        .faq-toggle::after {
+            content: "";
+            position: absolute;
+            background-color: var(--primary);
+            transition: var(--transition);
+        }
+        
+        .faq-toggle::before {
+            width: 24px;
+            height: 2px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        
+        .faq-toggle::after {
+            width: 2px;
+            height: 24px;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+        
+        .faq-answer {
+            padding: 0 30px;
+            max-height: 0;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .faq-answer-content {
+            padding-bottom: 30px;
+            padding-top: 10px;
+        }
+        
+        .faq-item.active .faq-toggle::after {
+            transform: translateX(-50%) rotate(90deg);
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 1000px;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 120px 0;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--light);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://via.placeholder.com/1000x1000');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.05;
+            z-index: 1;
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .cta-section h2 {
+            color: var(--light);
+            margin-bottom: 30px;
+        }
+        
+        .limited-spots {
+            display: inline-block;
+            background-color: rgba(255,255,255,0.1);
+            border: 2px solid rgba(255,255,255,0.2);
+            color: var(--light);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        /* White to Gold gradient for quote emphasis */
+        .quote-emphasis {
+            font-weight: 700;
+            background: linear-gradient(to right, #FFFFFF, #FFB649);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            filter: drop-shadow(0 0 6px rgba(255, 182, 73, 0.3));
+            padding: 0 5px;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: var(--dark);
+            color: rgba(255,255,255,0.7);
+            padding: 80px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .footer-logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: var(--light);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--light);
+        }
+        
+        .footer h4 {
+            color: var(--light);
+            margin-bottom: 24px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 24px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--light);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary-light);
+            transform: translateY(-5px);
+        }
+        
+        /* About Mentor Section */
+        .about-mentor-container {
+            background-color: var(--secondary);
+            border-radius: var(--border-radius);
+            position: relative;
+            overflow: hidden;
+            padding: 40px 0; /* Reduced padding from 60px to 40px */
+            margin: 0; /* Remove all margins */
+        }
+        
+        .about-mentor-container::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: var(--primary-light);
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+        
+        .about-mentor-container::after {
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: var(--accent-secondary);
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+        
+        .about-mentor-grid {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .mentor-image-container {
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .mentor-image-container:hover {
+            transform: translateY(-10px);
+        }
+        
+        .mentor-image {
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            object-fit: cover;
+            object-position: center 25%;
+            width: 100%;
+            height: auto;
+        }
+        
+        .mentor-accent {
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            width: 60%;
+            height: 60%;
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+            border-radius: var(--border-radius);
+            opacity: 0.1;
+            z-index: -1;
+        }
+        
+        .mentor-stats {
+            display: flex;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .mentor-stat-item {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            padding: 15px;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+            flex: 1;
+            transition: transform 0.3s ease;
+        }
+        
+        .mentor-stat-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .mentor-stat-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.2;
+        }
+        
+        .mentor-stat-label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text);
+        }
+        
+        .mentor-quote {
+            font-style: italic;
+            background-color: var(--light);
+            padding: 25px;
+            border-radius: var(--border-radius);
+            margin: 30px 0;
+            position: relative;
+            box-shadow: var(--box-shadow);
+            transition: transform 0.3s ease;
+        }
+        
+        .mentor-quote:hover {
+            transform: translateY(-5px);
+        }
+        
+        .mentor-quote::before {
+            content: '\201C';
+            font-size: 4rem;
+            font-family: 'Georgia', serif;
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            color: rgba(108, 41, 150, 0.2);
+            line-height: 1;
+        }
+        
+        /* Custom Elements */
+        .highlight-box {
+            background-color: var(--secondary);
+            border-left: 4px solid var(--primary);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .highlight-box:hover {
+            transform: translateY(-5px);
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+        .tag:hover {
+            transform: translateY(-5px);
+            background-color: var(--primary-light);
+            color: var(--light);
+        }
+        
+        .banner {
+            background-color: rgba(255, 107, 107, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 15px 30px;
+            margin: 30px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .banner:hover {
+            transform: translateY(-5px);
+        }
+        
+        .banner-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: var(--accent);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+            text-align: center;
+        }
+        
+        .stat-item {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-10px);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+        
+        .stat-label {
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        
+        .section-heading {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+        
+        .section-heading p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .section-subtitle {
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+            display: block;
+            font-size: 1rem;
+        }
+        
+        /* Heart wrapper */
+        .heart-wrapper {
+            display: inline-block;
+            position: relative;
+            padding: 2px 6px;
+            border-radius: 50px;
+            animation: heartCircle 2s infinite;
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        /* Bonus Masterclass Section */
+        .bonus-section {
+            background-color: var(--secondary);
+            padding: 80px 0;
+            border-radius: var(--border-radius);
+            margin: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .bonus-section::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 150px;
+            height: 150px;
+            background-color: var(--accent-secondary);
+            border-radius: 50%;
+            opacity: 0.2;
+        }
+        
+        .bonus-section::after {
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background-color: var(--primary-light);
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+        
+        .bonus-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .bonus-badge {
+            display: inline-block;
+            background-color: var(--accent-secondary);
+            color: var(--dark);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        /* Enhanced Styling for Mind-Spirit Connection Image */
+        .bonus-image {
+            position: relative;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .mind-spirit-container {
+            position: relative;
+            max-width: 90%;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+        
+        .mind-spirit-container:hover {
+            transform: translateY(-10px);
+        }
+        
+        .mind-spirit-image {
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 15px 35px rgba(108, 41, 150, 0.25);
+            border: 8px solid rgba(255, 255, 255, 0.8);
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .mind-spirit-container:hover .mind-spirit-image {
+            box-shadow: 0 20px 40px rgba(108, 41, 150, 0.35);
+        }
+        
+        .image-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(151, 66, 200, 0.2) 0%, rgba(151, 66, 200, 0) 70%);
+            z-index: -1;
+            animation: pulse 3s infinite ease-in-out;
+        }
+        
+        .mind-spirit-caption {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: center;
+            color: var(--primary-dark);
+            font-weight: 500;
+        }
+        
+        .bonus-value {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background-color: var(--accent);
+            color: var(--light);
+            padding: 15px;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            line-height: 1.2;
+            box-shadow: var(--box-shadow);
+            z-index: 3;
+        }
+        
+        .bonus-value span:first-child {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        
+        .bonus-value span:last-child {
+            font-size: 1.3rem;
+        }
+        
+        /* Schedule Section */
+        .schedule-section {
+            background-color: var(--secondary);
+            padding: 60px 0;
+            border-radius: var(--border-radius);
+            margin: 40px 0 0; /* Removed bottom margin completely */
+        }
+        
+        /* Compact Schedule Styles */
+        .compact-schedule {
+            background-color: var(--light);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .schedule-header {
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 20px 30px;
+            text-align: center;
+        }
+        
+        .schedule-header h3 {
+            margin: 0;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--light);
+        }
+        
+        .schedule-header p {
+            margin: 8px 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+            color: var(--light);
+        }
+        
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0;
+        }
+        
+        .schedule-item {
+            padding: 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+        
+        .schedule-item:hover {
+            background-color: var(--secondary);
+        }
+        
+        .schedule-item:nth-child(odd) {
+            border-right: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .schedule-item:nth-last-child(1),
+        .schedule-item:nth-last-child(2) {
+            border-bottom: none;
+        }
+        
+        /* For odd number of items */
+        .schedule-item:last-child:nth-child(odd) {
+            grid-column: 1 / -1;
+            border-right: none;
+        }
+        
+        .schedule-date {
+            font-weight: 600;
+            color: var(--text);
+            flex: 1;
+        }
+        
+        .schedule-duration {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .schedule-note {
+            background-color: rgba(255, 182, 73, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+            font-style: italic;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: transform 0.3s ease;
+        }
+        
+        .schedule-note:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Timezone alert */
+        .timezone-alert {
+            background-color: rgba(255, 107, 107, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .timezone-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+        
+        .timezone-content {
+            flex: 1;
+        }
+        
+        .timezone-content p {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .timezone-content a {
+            color: var(--primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .timezone-content a:hover {
+            color: var(--primary-light);
+        }
+        
+        /* Mobile Specific Styles */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--light);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--primary-dark);
+            z-index: 200;
+            padding: 30px;
+            transform: translateX(-100%);
+            transition: var(--transition);
+        }
+        
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        
+        .mobile-menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .mobile-menu-close {
+            background: none;
+            border: none;
+            color: var(--light);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-links {
+            list-style: none;
+            margin-top: 40px;
+        }
+        
+        .mobile-menu-links li {
+            margin-bottom: 20px;
+        }
+        
+        .mobile-menu-links a {
+            color: var(--light);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 500;
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .mobile-nav-cta {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--light);
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        
+        /* Mobile Bottom Bar */
+        .mobile-bottom-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--light);
+            box-shadow: 0 -5px 10px rgba(0,0,0,0.05);
+            z-index: 100;
+            padding: 15px;
+        }
+        
+        /* Center alignment helpers */
+        .text-center {
+            text-align: center;
+        }
+        
+        .mb-4 {
+            margin-bottom: 1.5rem;
+        }
+        
+        /* Quote emphasis wrap fix */
+        .nowrap {
+            white-space: nowrap;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 991px) {
+            .section {
+                padding: 80px 0;
+            }
+            
+            .hero {
+                padding: 150px 0 100px;
+            }
+            
+            .hero-container {
+                flex-direction: column;
+            }
+            
+            .hero-content {
+                text-align: center;
+                margin: 0 auto;
+            }
+            
+            .profile-container {
+                margin: 50px 0 0;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .content-image {
+                margin: 40px auto 0;
+                max-width: 600px;
+            }
+            
+            .bonus-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .bonus-value {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .journey-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-mentor-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .mentor-image-container {
+                margin: 0 auto;
+                max-width: 400px;
+            }
+            
+            .mind-spirit-container {
+                max-width: 70%;
+                margin: 0 auto 30px;
+            }
+            
+            .spiritual-image-container {
+                max-width: 100%;
+                margin: 0 auto 30px;
+            }
+            
+            .testimonial-arrows {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            body {
+                padding-bottom: 70px; /* Space for mobile bottom bar */
+            }
+            
+            .container {
+                padding: 0 20px;
+            }
+            
+            .hero {
+                padding: 120px 0 60px;
+            }
+            
+            .features-grid,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .section-heading {
+                margin-bottom: 40px;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .header .btn {
+                display: none;
+            }
+            
+            .mobile-bottom-bar {
+                display: block;
+            }
+            
+            /* Mobile Hero Adjustment */
+            .hero-content {
+                margin: 0 auto;
+            }
+            
+            .hero .btn {
+                display: inline-block;
+                margin: 0 auto;
+            }
+            
+            /* Mobile FAQ Adjustments */
+            .faq-question {
+                padding: 20px;
+                font-size: 1rem;
+            }
+            
+            .faq-answer-content {
+                padding: 0 0 20px;
+            }
+            
+            /* Mobile Stats Grid */
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .stat-number {
+                font-size: 2.5rem;
+            }
+            
+            .stat-label {
+                font-size: 0.9rem;
+            }
+            
+            /* Mobile Journey Cards */
+            .journey-card {
+                margin-bottom: 40px;
+            }
+            
+            /* Mobile Mentor Stats */
+            .mentor-stats {
+                flex-wrap: wrap;
+            }
+            
+            .mentor-stat-item {
+                flex: 0 0 calc(50% - 15px);
+            }
+            
+            /* Mobile Schedule Adjustments */
+            .schedule-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .schedule-item {
+                border-right: none !important;
+            }
+            
+            .schedule-item:nth-last-child(2) {
+                border-bottom: 1px solid rgba(0,0,0,0.05);
+            }
+            
+            /* Mobile Mind-Spirit Image */
+            .mind-spirit-container {
+                max-width: 85%;
+            }
+            
+            .mind-spirit-caption {
+                font-size: 0.9rem;
+            }
+            
+            .spiritual-image-container {
+                max-width: 100%;
+            }
+            
+            .spiritual-image-caption {
+                font-size: 0.9rem;
+            }
+        }
+        
+        /* Animations */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.4;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+        }
+        
+        @keyframes heartCircle {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255,107,107,0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(255,107,107,0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255,107,107,0);
+            }
+        }
+        
+        .animate {
+            opacity: 0;
+        }
+        
+        .fade-up {
+            animation: fadeUp 0.6s ease forwards;
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+        
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+        
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        /* Enhanced Mobile Specific Styles */
+        @media (max-width: 767px) {
+            /* Base adjustments */
+            body {
+                padding-bottom: 80px; /* Increased space for mobile bottom bar */
+                font-size: 16px; /* Base font size for better readability */
+            }
+
+            /* Typography adjustments */
+            h1 {
+                font-size: clamp(2rem, 8vw, 2.5rem);
+                line-height: 1.2;
+            }
+
+            h2 {
+                font-size: clamp(1.75rem, 6vw, 2rem);
+            }
+
+            h3 {
+                font-size: clamp(1.25rem, 5vw, 1.5rem);
+            }
+
+            /* Section spacing */
+            .section {
+                padding: 60px 0;
+            }
+
+            /* Hero section mobile optimization */
+            .hero {
+                padding: 100px 0 40px;
+                text-align: center;
+            }
+
+            .hero-content {
+                padding: 0 10px;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+            }
+
+            .profile-container {
+                margin: 30px auto 0;
+                max-width: 280px;
+            }
+
+            .profile-image {
+                width: 160px;
+                height: 160px;
+            }
+
+            /* Enhanced mobile navigation */
+            .mobile-menu {
+                overflow-y: auto;
+                padding-bottom: 100px; /* Space for bottom bar */
+            }
+
+            .mobile-menu-links {
+                margin-top: 20px;
+            }
+
+            .mobile-menu-links a {
+                padding: 15px;
+                font-size: 1.1rem;
+                border-radius: 8px;
+                background-color: rgba(255,255,255,0.05);
+                margin-bottom: 10px;
+                transition: background-color 0.3s ease;
+            }
+
+            .mobile-menu-links a:active {
+                background-color: rgba(255,255,255,0.1);
+            }
+
+            /* Enhanced mobile bottom bar */
+            .mobile-bottom-bar {
+                padding: 12px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgba(255, 255, 255, 0.98);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+            }
+
+            .mobile-bottom-bar .btn {
+                padding: 12px 20px;
+                font-size: 0.95rem;
+                width: 100%;
+            }
+
+            /* Journey cards mobile optimization */
+            .journey-card {
+                margin-bottom: 20px;
+            }
+
+            .journey-header {
+                padding: 15px 20px 15px 60px;
+            }
+
+            .journey-body {
+                padding: 20px;
+            }
+
+            /* Pricing cards mobile optimization */
+            .pricing-card {
+                margin-bottom: 30px;
+            }
+
+            .pricing-header {
+                padding: 25px 20px;
+            }
+
+            .pricing-body {
+                padding: 25px 20px;
+            }
+
+            /* FAQ mobile optimization */
+            .faq-question {
+                padding: 15px;
+                font-size: 1rem;
+            }
+
+            .faq-answer {
+                padding: 0 15px;
+            }
+
+            .faq-answer-content {
+                padding: 15px 0;
+            }
+
+            /* Testimonials mobile optimization */
+            .testimonial-card {
+                padding: 25px 20px;
+            }
+
+            .testimonial-content {
+                font-size: 1rem;
+            }
+
+            /* Schedule mobile optimization */
+            .schedule-grid {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .schedule-item {
+                padding: 15px;
+                border-bottom: 1px solid rgba(0,0,0,0.05);
+            }
+
+            .schedule-date {
+                font-size: 0.95rem;
+            }
+
+            /* Footer mobile optimization */
+            .footer {
+                padding: 50px 0 100px;
+            }
+
+            .footer-grid {
+                gap: 30px;
+            }
+
+            /* Touch-specific optimizations */
+            .btn, .tag, .social-icon {
+                min-height: 44px; /* Minimum touch target size */
+                min-width: 44px;
+            }
+
+            /* Form elements touch optimization */
+            input, select, textarea {
+                font-size: 16px; /* Prevent iOS zoom on focus */
+                min-height: 44px;
+            }
+
+            /* Improved tap targets */
+            .faq-question,
+            .mobile-menu-links a,
+            .schedule-item,
+            .pricing-features li {
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        /* Additional accessibility improvements */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: more) {
+            :root {
+                --primary: #4A1C66;
+                --primary-light: #6C2996;
+                --accent: #FF4040;
+                --text: #000000;
+            }
+        }
+
+        /* Accessibility Enhancements */
+        .visually-hidden {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0,0,0,0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
+
+        .skip-link {
+            background: var(--primary);
+            color: var(--light);
+            padding: 10px 20px;
+            position: fixed;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            text-decoration: none;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Enhanced Mobile Touch Interactions */
+        @media (hover: none) {
+            /* Remove hover effects on mobile */
+            .btn:hover,
+            .feature-card:hover,
+            .pricing-card:hover,
+            .journey-card:hover,
+            .testimonial-card:hover,
+            .social-icon:hover {
+                transform: none;
+            }
+
+            /* Add active state feedback */
+            .btn:active,
+            .feature-card:active,
+            .pricing-card:active,
+            .journey-card:active,
+            .testimonial-card:active,
+            .social-icon:active {
+                transform: scale(0.98);
+            }
+
+            /* Improved touch feedback */
+            .mobile-menu-links a:active,
+            .faq-question:active {
+                background-color: rgba(255,255,255,0.1);
+            }
+        }
+
+        /* Mobile-specific touch area improvements */
+        @media (max-width: 767px) {
+            /* Increase touch targets */
+            .btn,
+            .mobile-menu-links a,
+            .faq-question,
+            .testimonial-dot,
+            .schedule-item,
+            .social-icon {
+                padding: 12px 20px;
+                margin: 4px 0;
+            }
+
+            /* Add touch feedback */
+            .testimonial-dot {
+                transform: scale(1.2);
+                transition: transform 0.2s;
+            }
+
+            .testimonial-dot:active {
+                transform: scale(1.4);
+            }
+
+            /* Improved mobile scrolling */
+            .mobile-menu {
+                -webkit-overflow-scrolling: touch;
+                overscroll-behavior-y: contain;
+            }
+
+            /* Better form interactions */
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            select,
+            textarea {
+                -webkit-appearance: none;
+                border-radius: 8px;
+                padding: 12px 16px;
+            }
+
+            /* Prevent text selection during touch interactions */
+            .mobile-menu-btn,
+            .mobile-menu-close,
+            .btn,
+            .faq-question {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                user-select: none;
+            }
+
+            /* Smooth momentum scrolling */
+            .testimonial-slider,
+            .mobile-menu {
+                scroll-behavior: smooth;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+
+        /* Focus state improvements */
+        :focus {
+            outline: 3px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        :focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        :focus-visible {
+            outline: 3px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* Loading state for buttons */
+        .btn[aria-busy="true"] {
+            position: relative;
+            padding-right: 40px;
+        }
+
+        .btn[aria-busy="true"]::after {
+            content: "";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            width: 20px;
+            height: 20px;
+            margin-top: -10px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Mia Ottosson Home">Mia Ottosson</a>
+            <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <a href="#pricing" class="btn btn-light" aria-label="Enroll Now">Enroll Now</a>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu with improved accessibility -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo" aria-label="Mia Ottosson Home">Mia Ottosson</a>
+            <button class="mobile-menu-close" aria-label="Close menu">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        
+        <nav role="navigation" aria-label="Mobile navigation">
+            <ul class="mobile-menu-links">
+                <li><a href="#about">About the Program</a></li>
+                <li><a href="#about-mentor">About Mia</a></li>
+                <li><a href="#schedule">Class Schedule</a></li>
+                <li><a href="#journey">The Medium Journey</a></li>
+                <li><a href="#curriculum">What You'll Learn</a></li>
+                <li><a href="#bonus">Bonus Masterclass</a></li>
+                <li><a href="#testimonials">Success Stories</a></li>
+                <li><a href="#pricing">Join Now</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        
+        <a href="#pricing" class="mobile-nav-cta" aria-label="Secure your place now">Secure Your Place Now</a>
+    </div>
+
+    <main id="main-content" role="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-content animate fade-up">
+                        <span class="eyebrow">8+ Month Immersive Program</span>
+                        <h1>2025 Progressive Mediumship Course</h1>
+                        <p class="hero-subtitle">"As a medium, you are not allowed to give away your power — you are in charge of the sitting."</p>
+                        <a href="#about" class="btn btn-accent btn-large">Discover Your Medium Path</a>
+                    </div>
+                    
+                    <div class="profile-container animate fade-up delay-1">
+                        <div class="profile-image-wrapper">
+                            <div class="profile-glow"></div>
+                            <img src="https://i.imgur.com/k4sfpQD.jpeg" alt="Mia Ottosson" class="profile-image">
+                        </div>
+                        <h2 class="profile-name">Mia Ottosson</h2>
+                        <p class="profile-title">Professional Medium with 30+ years of experience and Tutor at the Arthur Findlay College</p>
+                        <span class="profile-spots pulse">Only 11 Spaces Available</span>
+                        <a href="#pricing" class="profile-cta">Secure Your Place</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-border" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">About the Program</span>
+                    <h2>A Transformative Approach to Medium Development</h2>
+                    <p>After 30+ years as a professional medium, I've designed this comprehensive program based on the understanding that medium development isn't a destination—it's a lifelong journey of growth, refinement, and deepening connection.</p>
+                </div>
+                
+                <div class="banner animate">
+                    <div class="banner-icon"><i class="fas fa-star"></i></div>
+                    <div>Limited to just 14 participants - 3 spots already taken!</div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item animate">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Hours of Live Training</div>
+                    </div>
+                    <div class="stat-item animate delay-1">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Months of Development</div>
+                    </div>
+                    <div class="stat-item animate delay-2">
+                        <div class="stat-number">14</div>
+                        <div class="stat-label">Maximum Participants</div>
+                    </div>
+                    <div class="stat-item animate delay-3">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                </div>
+                
+                <!-- Updated to single column layout -->
+                <div class="why-different-section">
+                    <div class="why-different-content animate">
+                        <h3>Why This Program Is Different</h3>
+                        <p>Unlike programs that focus only on exercises, this course develops your unique medium voice and helps you find your authentic approach to spirit connection:</p>
+                        
+                        <div class="highlight-box">
+                            <p>"Every medium thinks their way is the right way. So I find it very important that we all find our own way, your own unique way to follow your path."</p>
+                        </div>
+                        
+                        <p>My role is not to mold you into my image but to help you discover and refine your authentic voice. This systematic, 8+ month journey builds your skills progressively and addresses both the technical aspects of mediumship and the personal development required to work sustainably.</p>
+                        
+                        <div class="tags animate delay-1">
+                            <span class="tag">Small Group Mentoring</span>
+                            <span class="tag">Progressive Development</span>
+                            <span class="tag">Balanced Approach</span>
+                            <span class="tag">Authentic Teaching</span>
+                            <span class="tag">Live Experimentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Class Schedule Section -->
+        <section class="section" id="schedule">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">Program Details</span>
+                    <h2>2025 Class Schedule</h2>
+                    <p>Our journey begins April 9th, 2025 with regular sessions to build your mediumship skills progressively</p>
+                </div>
+                
+                <div class="compact-schedule animate">
+                    <div class="schedule-header">
+                        <h3>Class Times</h3>
+                        <p>4-hour sessions: 6pm-10pm | 2-hour sessions: 6pm-8pm</p>
+                    </div>
+                    
+                    <div class="schedule-grid">
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, April 9th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, April 23rd</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, May 7th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, May 28th</span>
+                            <span class="schedule-duration">2 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, June 11th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, June 25th</span>
+                            <span class="schedule-duration">2 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, August 20th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, September 3rd</span>
+                            <span class="schedule-duration">2 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, September 24th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, October 8th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, October 29th</span>
+                            <span class="schedule-duration">2 hours</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-date">Wednesday, November 12th</span>
+                            <span class="schedule-duration">4 hours</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timezone Alert -->
+                <div class="timezone-alert animate">
+                    <div class="timezone-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="timezone-content">
+                        <p>All class times are in Sweden time zone (CET/CEST)</p>
+                        <a href="https://dateful.com/time-zone-converter" target="_blank" rel="noopener">
+                            <i class="fas fa-clock"></i> Check your local time zone
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="schedule-note animate delay-1">
+                    <p><strong>Important:</strong> While recordings will be available, we strongly encourage live attendance at all sessions as the interactive nature of the training is essential for development. Please review the schedule carefully to ensure you can commit to the program dates before enrolling.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Mia as a Mentor Section -->
+        <section class="section" id="about-mentor">
+            <div class="container">
+                <div class="about-mentor-container">
+                    <div class="container">
+                        <div class="section-heading">
+                            <span class="section-subtitle">Your Mentor</span>
+                            <h2>About Mia Ottosson</h2>
+                        </div>
+                        
+                        <div class="about-mentor-grid">
+                            <div class="mentor-image-container animate">
+                                <img src="https://i.imgur.com/k4sfpQD.jpeg" alt="Mia Ottosson" class="mentor-image">
+                                <div class="mentor-accent"></div>
+                            </div>
+                            
+                            <div class="animate delay-1">
+                                <p>Mia has been working as a professional medium for 30+ years. She is the only one from the Nordic countries who is a Tutor and a Course Organizer at the Arthur Findlay College.</p>
+                                
+                                <div class="mentor-stats">
+                                    <div class="mentor-stat-item">
+                                        <div class="mentor-stat-number">30+</div>
+                                        <div class="mentor-stat-label">Years Experience</div>
+                                    </div>
+                                    <div class="mentor-stat-item">
+                                        <div class="mentor-stat-number">25+</div>
+                                        <div class="mentor-stat-label">Years Teaching</div>
+                                    </div>
+                                    <div class="mentor-stat-item">
+                                        <div class="mentor-stat-number">1000+</div>
+                                        <div class="mentor-stat-label">Students Mentored</div>
+                                    </div>
+                                </div>
+                                
+                                <p>What separates my teaching approach is my commitment to honesty and authenticity. I don't pretend to have all the answers or present myself as a perfect medium. Instead, I share my own challenges, mistakes, and breakthroughs, creating a safe space for genuine exploration and growth.</p>
+                                
+                                <div class="mentor-quote">
+                                    "I think everybody who embarks on this journey should give themselves a tap on the shoulder because it takes courage to look into yourself. It takes courage to be yourself."
+                                </div>
+                                
+                                <p>Beyond traditional mediumship, I also work with Psychic and Spiritual Art by creating Spirit Portraits and Soul Pictures, also known as Auragraphs. This multi-dimensional approach helps me connect with spirit in different ways and enhances my ability to provide evidence and insights.</p>
+                                
+                                <p>I believe that every medium must find their own unique voice and approach. My role is not to create copies of myself but to help you discover and refine your authentic medium gifts in a way that feels true to who you are.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: var(--secondary);" id="journey">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">THE COMPLETE MEDIUM DEVELOPMENT PATH</span>
+                    <h2>Your Progressive Mediumship Journey</h2>
+                    <p>This program is structured as a progressive journey, with each step building on the previous ones to create complete, confident mediumship abilities.</p>
+                </div>
+                
+                <div class="journey-grid">
+                    <div class="journey-card animate">
+                        <div class="journey-header">
+                            <div class="journey-step">1</div>
+                            <h3 class="journey-title">Building Your Foundation</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "I think everybody who embark on this journey should give themselves a tap on the shoulder because it takes courage to look into yourself. It takes courage to be yourself."
+                            </div>
+                            <p>The daily practice of sitting in the power creates the energetic foundation for everything that follows. This consistent connection with spirit energy builds what I call "spiritual charisma" and creates stability in your connections.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-card animate delay-1">
+                        <div class="journey-header">
+                            <div class="journey-step">2</div>
+                            <h3 class="journey-title">Developing Clear Intention</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "The spirit world is here for us, not the opposite."
+                            </div>
+                            <p>Setting clear intention transforms scattered impressions into directed communication. This focused approach creates consistency and confidence in your connections, allowing you to work with specific spirits rather than just whoever comes through.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-card animate delay-2">
+                        <div class="journey-header">
+                            <div class="journey-step">3</div>
+                            <h3 class="journey-title">Becoming a Storyteller</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "We build strong bonds and nurture as we go. We're here to be teachers. We have to be the truth — to the spirits — and you are."
+                            </div>
+                            <p>Moving beyond basic evidence to create rich, meaningful narratives transforms good mediumship into exceptional mediumship. Techniques like "traveling down the timeline" reveal the full person rather than just facts about them.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-card animate">
+                        <div class="journey-header">
+                            <div class="journey-step">4</div>
+                            <h3 class="journey-title">Balancing Energies</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "I find that so intriguing. And every time I think, my God, I learned something else tonight. I'm perfecting, I'm polishing my own diamond, you see?"
+                            </div>
+                            <p>Understanding the relationship between psychic and mediumistic energies allows you to create complete, meaningful readings. This balanced approach ensures you deliver both evidential connection and relevant guidance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-card animate delay-1">
+                        <div class="journey-header">
+                            <div class="journey-step">5</div>
+                            <h3 class="journey-title">Building Authentic Confidence</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "To dare someone to look into yourself. A dare to connect to the real you!"
+                            </div>
+                            <p>Transforming self-doubt into genuine confidence allows your natural abilities to shine. This isn't about eliminating all doubt but developing the ability to work effectively despite it.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-card animate delay-2">
+                        <div class="journey-header">
+                            <div class="journey-step">6</div>
+                            <h3 class="journey-title">Creating Sustainability</h3>
+                        </div>
+                        <div class="journey-body">
+                            <div class="journey-quote">
+                                "It's nice to go to a course... But in all honesty, you're not supposed to go to courses all your life. You're supposed to get out there and work, know, work for the people."
+                            </div>
+                            <p>Establishing clear boundaries and energy management practices ensures you can continue your medium work for decades rather than months. This sustainable approach balances service with self-care.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-border" id="curriculum">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Comprehensive Medium Development</h2>
+                    <p>This 8+ month journey provides a complete pathway to confident, authentic mediumship. Through live mentoring and experimentation, you'll develop skills that transform your practice.</p>
+                </div>
+                
+                <div class="content-grid">
+                    <div class="content-left animate">
+                        <span class="section-subtitle">WHAT YOU'LL LEARN</span>
+                        
+                        <ul class="check-list">
+                            <li>Sitting in the power - The foundation of spiritual charisma</li>
+                            <li>Building compelling evidence that resonates and validates</li>
+                            <li>Developing clairsentience, clairvoyance, claircognizance</li>
+                            <li>Quick connection techniques - establishing links in seconds</li>
+                            <li>Working from the <span class="heart-wrapper">heart</span> as a medium - authentic connection</li>
+                            <li>Timeline techniques - telling the spirit's complete story</li>
+                            <li>Balancing psychic and mediumistic energies</li>
+                            <li>Finding your unique medium voice and approach</li>
+                            <li>Creating sustainable boundaries and energy management</li>
+                        </ul>
+                        
+                        <div class="highlight-box">
+                            <p>"This isn't another basic course or weekend workshop. This is about discovering your authentic medium voice through consistent practice and personalized guidance."</p>
+                        </div>
+                        
+                        <a href="#pricing" class="btn btn-primary">Secure Your Place</a>
+                    </div>
+                    
+                    <div class="content-image animate delay-2">
+                        <img src="https://i.imgur.com/nHUyuss.jpeg" alt="Spiritual Connection">
+                        <img src="https://i.imgur.com/5BvL9Cz.jpeg" alt="Mediumship Balance">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Enhanced Bonus Masterclass Section with Mind-Spirit Connection Image -->
+        <section class="bonus-section" id="bonus">
+            <div class="container">
+                <div class="bonus-content">
+                    <div class="text-center mb-4">
+                        <span class="bonus-badge">Exclusive Bonus</span>
+                        <h2>The Mind-Spirit Connection: Secrets to Powerful Mediumship</h2>
+                        <p>An intimate 1-hour masterclass revealing Mia's internal process after decades as a professional medium</p>
+                    </div>
+                    
+                    <div class="bonus-grid">
+                        <div class="bonus-image animate">
+                            <div class="mind-spirit-container">
+                                <div class="image-glow"></div>
+                                <img src="https://i.imgur.com/Rbr5dSN.jpeg" alt="The Mind-Spirit Connection" class="mind-spirit-image">
+                                <div class="bonus-value">
+                                    <span>Value</span>
+                                    <span>€297</span>
+                                </div>
+                            </div>
+                            <p class="mind-spirit-caption">Nurturing the authentic medium within you</p>
+                        </div>
+                        
+                        <div class="animate delay-1">
+                            <h3>Beyond Techniques: The Mental Framework of Exceptional Mediumship</h3>
+                            <p>In this candid, revelatory session, Mia shares the internal mental processes that truly separate average mediums from exceptional ones. Unlike typical "how-to" classes, this masterclass addresses the deeper psychological aspects of mediumship that few teachers ever discuss.</p>
+                            
+                            <ul class="check-list">
+                                <li><strong>Mind as Interpreter</strong> — "The mind is the greatest tool but it's also the one who messes up for us... When you get it wrong, it might not be wrong. It's just that you don't understand it yet."</li>
+                                <li><strong>The 50-50 Partnership</strong> — Discover why "you are not a marionette to the spirit world" and how to establish yourself as an equal partner in the communication</li>
+                                <li><strong>Overcoming Self-Doubt</strong> — Learn how Mia still manages insecurity even after 30+ years: "Fake it till you make it... I'm faking my nerves, not my mediumship"</li>
+                                <li><strong>Sitting in the Power</strong> — "When you're sitting in the power, nothing happens and that's where everything happens... make time for that energy"</li>
+                                <li><strong>Sustainable Practice</strong> — "We need to learn to draw the line where we don't feel guilty for not giving enough" to preserve your energy</li>
+                            </ul>
+                            
+                            <div class="highlight-box">
+                                <p>"As soon as you put the intention there to start work with the spirit, everything that pops into your mind is there for a reason. Your mind will do everything in its power to help you, not the opposite."</p>
+                            </div>
+                            
+                            <p><strong>This rare, unfiltered look into a professional medium's mental process is not available separately and is exclusively for program participants.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Testimonials Section with Slider -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">TRANSFORMATIONAL EXPERIENCES</span>
+                    <h2>Student Success Stories</h2>
+                    <p>Hear from those who have experienced Mia's unique approach to medium development</p>
+                </div>
+                
+                <div class="testimonial-slider-container">
+                    <div class="testimonial-arrows">
+                        <div class="testimonial-arrow prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="testimonial-arrow next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slider">
+                        <div class="testimonial-card active" id="testimonial-1">
+                            <div class="testimonial-content">
+                                <p>"What I learned with Mia in just two days was <span class="testimonial-highlight">more than I learned from all other courses combined</span>. I use the tools she taught me in every sitting I do. Mia removes the pressure from mediumship and teaches us to have fun while taking care of ourselves."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">A</div>
+                                <div class="author-info">
+                                    <h4>Anna</h4>
+                                    <p>Medium Student</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card" id="testimonial-2">
+                            <div class="testimonial-content">
+                                <p>"Mia shares all of her knowledge without hesitation. She <span class="testimonial-highlight">encourages us to find our own voice and path in mediumship</span> while keeping a watchful eye. Her honesty and generosity create an environment where we can stay faithful to ourselves without compromise."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">M</div>
+                                <div class="author-info">
+                                    <h4>Magdalena</h4>
+                                    <p>Developing Medium</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card" id="testimonial-3">
+                            <div class="testimonial-content">
+                                <p>"I met Mia at the Arthur Findlay College feeling scared and insecure. <span class="testimonial-highlight">She is one of the most beautiful, honest, and kind-hearted people I've ever met</span>. Seeing herself in me, she helped me feel less alone during that week. She's incredible as both a tutor and friend."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">D</div>
+                                <div class="author-info">
+                                    <h4>Danice</h4>
+                                    <p>Former Student</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card" id="testimonial-4">
+                            <div class="testimonial-content">
+                                <p>"After witnessing Mia's mediumship demonstrations over the past two years, I've been consistently impressed by her accuracy and connection. She is genuine and straightforward — <span class="testimonial-highlight">truly one of the best mediums in the world today</span>."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">S</div>
+                                <div class="author-info">
+                                    <h4>Simon</h4>
+                                    <p>Professional Medium</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card" id="testimonial-5">
+                            <div class="testimonial-content">
+                                <p>"My first course with Mia was challenging, but <span class="testimonial-highlight">she eased my mind and taught me to believe in myself</span>. I appreciate her teaching approach — straightforward yet supportive, with a firm but loving hand. She's always there when needed but waits for us to ask for help."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">I</div>
+                                <div class="author-info">
+                                    <h4>Inger</h4>
+                                    <p>Medium Student</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-nav">
+                        <div class="testimonial-dot active" data-target="testimonial-1"></div>
+                        <div class="testimonial-dot" data-target="testimonial-2"></div>
+                        <div class="testimonial-dot" data-target="testimonial-3"></div>
+                        <div class="testimonial-dot" data-target="testimonial-4"></div>
+                        <div class="testimonial-dot" data-target="testimonial-5"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="pricing" style="background-color: var(--secondary);">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">Join the 2025 Program</span>
+                    <h2>Secure Your Place Today</h2>
+                    <p>Choose the payment option that works best for you</p>
+                </div>
+                
+                <div class="banner animate" style="background-color: rgba(255, 107, 107, 0.15); max-width: 600px; margin: 30px auto;">
+                    <div class="banner-icon"><i class="fas fa-exclamation-circle"></i></div>
+                    <div>Only 11 spaces remaining — 3 spots already taken!</div>
+                </div>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card animate">
+                        <div class="pricing-header">
+                            <div class="pricing-title">FULL PAYMENT</div>
+                            <div class="pricing-price">€1295</div>
+                            <div class="pricing-period">Save €100</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li>All sessions over 8+ months</li>
+                                <li class="premium-feature"><strong>One 1.5 hour private session with Mia</strong> <span style="color: var(--accent); font-weight: 700;">(worth €300)</span></li>
+                                <li>40+ hours of live training</li>
+                                <li>Recordings available for 30 days</li>
+                                <li>BONUS: The Mind-Spirit Connection Masterclass (€297 value)</li>
+                                <li>Early registration savings of €100</li>
+                                <li>Supportive community access</li>
+                            </ul>
+                            <a href="https://calendly.com/miaottosson/progressive-mediumship-2025?month=2025-04" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Pay in Full</a>
+                            <p style="text-align: center; margin-top: 20px; font-size: 0.9rem;"><small>Early registration ends April 8th, 2025</small></p>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-card animate delay-1">
+                        <div class="pricing-header">
+                            <div class="pricing-title">PAYMENT PLAN</div>
+                            <div class="pricing-price">€1395</div>
+                            <div class="pricing-period">€395 deposit + 2 x €500</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li>All sessions over 8+ months</li>
+                                <li class="negative-feature">One 1.5 hour private session with Mia</li>
+                                <li>40+ hours of live training</li>
+                                <li>Recordings available for 30 days</li>
+                                <li>BONUS: The Mind-Spirit Connection Masterclass (€297 value)</li>
+                                <li>€395 deposit due at registration</li>
+                                <li>2 remaining payments of €500 every 3 months</li>
+                            </ul>
+                            <a href="https://calendly.com/miaottosson/progressive-mediumship-2025-deposit/2025-04-08T18:00:00+02:00?month=2025-04&date=2025-04-08" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Choose Payment Plan</a>
+                            <p style="text-align: center; margin-top: 20px; font-size: 0.9rem;"><small>Please note: No BONUS private sessions for this option</small></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 40px;" class="animate delay-2">
+                    <p style="font-style: italic; max-width: 700px; margin: 0 auto 20px;">Please note: Due to the intensive nature of this personalized program and limited spots available, we are unable to offer refunds. By joining, you are committing to your complete development journey.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-border" id="faq">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-subtitle">FAQs</span>
+                    <h2>Common Questions</h2>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item animate">
+                        <div class="faq-question">
+                            Am I experienced enough for this program?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>This program is designed for developing mediums with some basic experience—you should have at least attempted to connect with spirit, whether in classes or on your own. You don't need to be "good" at it yet (that's why you're joining the program!), but you should have a basic understanding of what mediumship involves.</p>
+                                <p>If you're completely new to mediumship, I recommend starting with some foundational classes before joining this comprehensive program.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate delay-1">
+                        <div class="faq-question">
+                            What if I can't attend all the live sessions?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>While live participation offers the most value, I understand that life happens. All sessions are recorded and available for 30 days afterward. For practice sessions, you'll be paired with other students for additional practice between our live meetings.</p>
+                                <p>I recommend attending at least 75% of the sessions live to get the full benefit of the program, but many students have successfully completed the program while missing some sessions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate delay-2">
+                        <div class="faq-question">
+                            Why isn't there a refund policy?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>The Progressive Mediumship Course is limited to just 14 students to ensure personalized attention and development. When you secure your spot, you're preventing someone else from joining. Given the limited nature of the program and the extensive preparation involved, we cannot offer refunds.</p>
+                                <p>This policy ensures that all participants are fully committed to the development journey. If you have questions about whether this program is right for you, please contact me directly before enrolling so we can make sure it's the perfect fit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate delay-3">
+                        <div class="faq-question">
+                            How much practice is required outside of the live sessions?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>For optimal development, I recommend 2-3 hours per week of practice outside our sessions. This includes sitting in the power (ideally daily, even if just for 5-10 minutes) and practice readings with classmates or friends.</p>
+                                <p>Students who commit to regular practice see the most dramatic improvement, but the program is designed to be flexible for different schedules and commitments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate">
+                        <div class="faq-question">
+                            What makes your program different from other medium courses?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Three key differences:</p>
+                                <ol>
+                                    <li><strong>Personalized mentoring</strong> - With a maximum of 14 students, you receive individual guidance tailored to your unique gifts and challenges</li>
+                                    <li><strong>Open experimentation</strong> - We embrace an exploratory approach that allows your authentic medium style to emerge naturally</li>
+                                    <li><strong>Progressive structure</strong> - Skills build systematically over 8+ months, creating lasting development rather than temporary inspiration</li>
+                                </ol>
+                                <p>Most importantly, I teach from my 30+ years of professional experience—sharing not just what works, but what challenges you'll face and how to overcome them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate delay-1">
+                        <div class="faq-question">
+                            What is the format of the live sessions?
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Each live session is a blend of teaching, demonstration, and guided practice. The program includes two types of sessions:</p>
+                                <ul>
+                                    <li><strong>Intensive Development Sessions (4 hours)</strong> - Introduction of new concepts, demonstrations, and initial guided practice</li>
+                                    <li><strong>Practice Sessions (2 hours)</strong> - Focused application of techniques with personalized feedback and refinement</li>
+                                </ul>
+                                <p>All sessions are interactive and experiential, with significant time devoted to actual mediumship practice.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content animate">
+                    <span class="limited-spots pulse">Only 11 spots remaining</span>
+                    <h2>"The spirit world is here <span class="quote-emphasis nowrap">for us</span>, not the opposite."</h2>
+                    <p style="font-size: 1.25rem; margin-bottom: 30px;">Your decision to develop your gifts is a gift to both yourself and those you'll serve. This 8+ month journey will transform not just your mediumship skills but your relationship with your own intuitive abilities.</p>
+                    <a href="https://calendly.com/miaottosson/progressive-mediumship-2025?month=2025-04" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-large">Secure Your Place Today</a>
+                    <p style="margin-top: 20px; opacity: 0.8;">Early registration ends April 8th, 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="footer-logo">Mia Ottosson</div>
+                        <p>Professional Medium & Tutor at the Arthur Findlay College with 30+ years of experience helping mediums develop their unique gifts.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/mia.ottosson" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/mariamiaottosson/" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@JourneyWithMia" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#about">About the Program</a></li>
+                            <li><a href="#about-mentor">About Mia</a></li>
+                            <li><a href="#schedule">Class Schedule</a></li>
+                            <li><a href="#journey">Medium Development Path</a></li>
+                            <li><a href="#bonus">Bonus Masterclass</a></li>
+                            <li><a href="#pricing">Join Now</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4>Contact</h4>
+                        <ul class="footer-links">
+                            <li><a href="mailto:mia@miaottosson.se">mia@miaottosson.se</a></li>
+                            <li><a href="#">Book a Consultation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>© 2025 Mia Ottosson | Progressive Mediumship Development | All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Mobile Bottom Bar -->
+        <div class="mobile-bottom-bar">
+            <a href="https://calendly.com/miaottosson/progressive-mediumship-2025?month=2025-04" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Secure Your Place Now</a>
+        </div>
+    </main>
+
+    <script>
+        // FAQ Accordion Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', () => {
+                    // Toggle active class
+                    item.classList.toggle('active');
+                    
+                    // Close other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                });
+            });
+            
+            // Mobile Menu
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const closeBtn = document.querySelector('.mobile-menu-close');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const mobileMenuLinks = document.querySelectorAll('.mobile-menu-links a');
+            
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+            
+            closeBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+            
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // Testimonial Slider Functionality with Auto Advance
+            const testimonialDots = document.querySelectorAll('.testimonial-dot');
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+            const prevArrow = document.querySelector('.testimonial-arrow.prev');
+            const nextArrow = document.querySelector('.testimonial-arrow.next');
+            let currentSlide = 0;
+            const totalSlides = testimonialCards.length;
+            let slideInterval; // Variable to store the interval
+            
+            function showSlide(index) {
+                // Hide all slides
+                testimonialCards.forEach(card => {
+                    card.classList.remove('active');
+                });
+                
+                // Deactivate all dots
+                testimonialDots.forEach(dot => {
+                    dot.classList.remove('active');
+                });
+                
+                // Show the current slide
+                testimonialCards[index].classList.add('active');
+                testimonialDots[index].classList.add('active');
+                currentSlide = index;
+            }
+            
+            // Function to start automatic slideshow
+            function startSlideshow() {
+                // Clear any existing interval first
+                if (slideInterval) {
+                    clearInterval(slideInterval);
+                }
+                
+                // Set new interval to advance every 5 seconds
+                slideInterval = setInterval(() => {
+                    let newIndex = currentSlide + 1;
+                    if (newIndex >= totalSlides) newIndex = 0;
+                    showSlide(newIndex);
+                }, 5000); // 5 seconds interval
+            }
+            
+            // Start the automatic slideshow on page load
+            startSlideshow();
+            
+            // Dot navigation
+            testimonialDots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    showSlide(index);
+                    // Restart the slideshow timer when manually changing slides
+                    startSlideshow();
+                });
+            });
+            
+            // Arrow navigation
+            prevArrow.addEventListener('click', () => {
+                let newIndex = currentSlide - 1;
+                if (newIndex < 0) newIndex = totalSlides - 1;
+                showSlide(newIndex);
+                // Restart the slideshow timer when manually changing slides
+                startSlideshow();
+            });
+            
+            nextArrow.addEventListener('click', () => {
+                let newIndex = currentSlide + 1;
+                if (newIndex >= totalSlides) newIndex = 0;
+                showSlide(newIndex);
+                // Restart the slideshow timer when manually changing slides
+                startSlideshow();
+            });
+            
+            // Pause slideshow when user hovers over testimonials
+            const testimonialContainer = document.querySelector('.testimonial-slider-container');
+            testimonialContainer.addEventListener('mouseenter', () => {
+                clearInterval(slideInterval);
+            });
+            
+            // Resume slideshow when user leaves the testimonials
+            testimonialContainer.addEventListener('mouseleave', () => {
+                startSlideshow();
+            });
+            
+            // Animation on scroll
+            const animateElements = document.querySelectorAll('.animate');
+            
+            function checkIfInView() {
+                animateElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementTop < windowHeight - 100) {
+                        element.classList.add('fade-up');
+                    }
+                });
+            }
+            
+            // Run on scroll and on load
+            window.addEventListener('scroll', checkIfInView);
+            checkIfInView();
+        });
+    </script>
+</body>
+</html>
